@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 300;
+  /* background: #fff; */
+  overflow-x: hidden;
+}
+p {
+  font-size: 14px;
+  line-height: 26px;
+}
+a:hover,
+a:focus {
+  color: #4676fa;
+}
+a {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.btn {
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 0px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+}
+.btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+.btn-common {
+  border: 2px solid rgb(255, 192, 0);
+  background-color: #fa9f46;
+  position: relative;
+  z-index: 1;
+  border-radius: 4px;
+}
+.btn-common:hover {
+  color: #fa9f46;
+  background-color: transparent;
+  border: 2px solid #fa9f46;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+.btn-border {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+.btn-border:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #4676fa;
+}
+.btn-lg {
+  padding: 14px 33px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.btn-rm {
+  padding: 7px 10px;
+  text-transform: capitalize;
+}
+.clear {
+  clear: both;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+a:not([href]):not([tabindex]) {
+  color: #fff;
+}
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+  color: #fa9f46;
+}
+.section {
+  padding: 130px 0;
+}
+
+#section-title{
+  color: #fff;
+}
+
+#section-subtitle{
+  color: #cecece;
+}
+
+/* ------ header ------- */
+
+.background-gs {
+      background: url(../img/main-bg.jpg);
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: cover;
+      height: 100vh
+}
+
+
+
+/* ------ end header ------- */
